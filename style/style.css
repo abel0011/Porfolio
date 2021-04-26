@@ -1,10 +1,129 @@
-*{
-     margin:0;
-     padding:0;
+:root{
+
 }
 
-h1,h2,h3,h5,h6{
+*{
+  margin: 0;
+  padding:0;
+}
 
+html{
+scroll-behavior:smooth;
+}
+
+body{
+ background-color: #747a81;
+}
+
+/*Cambiando tipografias  */
+h1,
+h2,
+h3,
+h4,
+p{
+  font-family: quattrocento sans,sans-serif;
+  color: #fff;
+}
+.nav-menu .menu
+{
+  background-color: #22252c;
+  padding: 1.5rem;
+  color: #fff;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+.nav-menu .menu  li
+{
+  list-style-type:none;
+  position: relative;
+  z-index: 1; 
+}
+.nav-menu .menu  li a
+{
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  margin-right: 42px;
+  font-weight: 500;
+  padding: 27px 0;
+  position: relative;  
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+
+}
+
+.nav-menu .menu  span {
+  position:  unset;
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: #ffffff;
+	border: 1px solid #7abdb7;
+	border-radius: 50%;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+	margin-right: 7px;
+}
+.continer .top-social a:hover {
+	background: #58D68D;
+	border-color: #58D68D;
+}
+
+  
+ 
+/*
+.nav-menu .menu  li a::after
+{
+  position: absolute;
+  left: 0;
+ top: 52px;
+ width: 100%;
+  height: 2px ;
+  background: #77a2ec;
+  content:"";
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+
+}*/
+.nav-menu{
+  width: 100%;
+  position: fixed ;
+  top: 0;
+}
+#ulnav{
+text-align:center;
+}
+.linav{
+display: inline;
+margin: 0rem 0.5rem  1rem 1rem ;
+}
+
+main
+{
+ ;
+
+
+}
+
+
+
+.footer{
+  background-color: #111927;
+  padding:1.rem;
+  width: 100%;
+  height: 5rem;
+  position: fixed 0;
+  bottom: 0;
+
+}
+
+/*Movile */
+@media all and (min-width: 960px){
+ 
 }
 html, body {
 height: 100%;
