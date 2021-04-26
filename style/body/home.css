@@ -1,0 +1,25 @@
+.wrapper{
+  background-color: #111927;
+  padding:1.5rem;
+  width: 100%;
+  height: auto;
+  position: static ;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.card-abel{
+  background-color: blue;
+  width: 100%;
+  height: 20px;
+  border-radius: 0.2rem;
+
+}
+
+.card-ana{
+  background-color: red;
+  width: 100%;
+  height: 20px;
+}
+
