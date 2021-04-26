@@ -1,7 +1,7 @@
 .wrapper{
   background-color: #111927;
   padding:1.5rem;
-  width: 100%;
+  width: auto;
   height: auto;
   position: static ;
   display: grid;

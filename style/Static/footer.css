@@ -1,8 +1,8 @@
 /*Agregando Color al footer y tamaño  */
 footer{
   background-color: #111927;
+  width: auto;
   padding:1.5rem;
-  width: 100%;
   height: auto;
   position: fixed 0;
   bottom: 0;
