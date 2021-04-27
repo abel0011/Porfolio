@@ -24,6 +24,10 @@ p{
   font-family: quattrocento sans,sans-serif;
   color: #fff;
 }
+main
+{
+
+}
 .nav-menu .menu
 {
   background-color: #22252c;
@@ -102,11 +106,7 @@ display: inline;
 margin: 0rem 0.5rem  1rem 1rem ;
 }
 
-main
-{
 
-
-}
 
 
 
@@ -155,7 +155,7 @@ footer{
 .footer-bootom span{
   text-transform: uppercase;
   opacity: .5;
-  background-color: #212529;
+  background-color: #212529 ;
 }
 /*Aliniando los iconos de las redes sociales  */
 .socials{
@@ -184,10 +184,4 @@ footer{
 /*Movile */
 @media all and (min-width: 960px){
  
-}
-html, body {
-height: 100%;
-font-family: "Cabin", sans-serif;
--webkit-font-smoothing: antialiased;
-font-smoothing: antialiased;
 }
