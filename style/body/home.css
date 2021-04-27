@@ -72,10 +72,16 @@ background-size: cover;
 .card-info {
   height: 10px;
   width: 100%;
+  margin-left: 10rem;
   text-align: right;
   justify-content: right;
-  
 }
 .card-info p{
   color: black;
+}
+.card-info h2{
+  color: black;
+}
+.card-info-p{
+  text-align: center;
 }
