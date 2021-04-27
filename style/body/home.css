@@ -1,11 +1,11 @@
-.wrapper{
+.card-shared{
   background-color: #111927;
   padding:1.5rem;
   top: 0;
-  position: fixed;
-  width: auto;
   height: 50rem;
   position: static ;
+}
+.wrapper{
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(2,1fr);
@@ -24,20 +24,43 @@
   background-color: blue;
   width: 100%;
   height: 20rem;
-  border-radius: 0.2rem;
+  border-radius: 1rem;
   margin-top: 20%;
-  display: flex;
-  justify-content: center;
+  justify-content: right;
 }
+<<<<<<< HEAD
 .card-logo{
+=======
+
+.card-logo-abel{
+>>>>>>> master
   background-color: red;
-  height: 50px;
-  width: 50px;
-  border-radius: 100%;
+  height: 100%;
+  width: 170px;
+  background-image: url(../Images/cards/Abel.jpeg);
+background-size: cover;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
 }
+<<<<<<< HEAD
+=======
+
+.card-logo-ana{
+  background-color: red;
+  height: 100%;
+  width: 170px;
+  background-image: url(../Images/cards/Ana.jpeg);
+background-size: cover;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+>>>>>>> master
 .card-ana{
   background-color: red;
   width: 100%;
-  height: 20px;
-}
+  height: 20rem;
+  border-radius: 1rem;
+  margin-top: 20%;
+  justify-content: right;
 
+}
