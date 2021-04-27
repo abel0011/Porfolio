@@ -1,0 +1,40 @@
+@import url(Static/footer.css);
+@import url(Static/nav.css);
+@import url(library/Normalize/normalize.css);
+@import url(library/Icons/style__icon.css);
+@import url(body/home.css);
+:root{
+}
+
+*{
+  margin: 0;
+  padding:0;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+ background-color: #747a81;
+}
+
+/*Cambiando tipografias  */
+h1,
+h2,
+h3,
+h4,
+p{
+  font-family: quattrocento sans,sans-serif;
+  color: #fff;
+}
+
+main
+{
+}
+
+
+/*Movile */
+@media all and (min-width: 960px){
+ 
+}

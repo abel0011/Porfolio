@@ -1,0 +1,71 @@
+/*Agregando Color al footer y tamaño  */
+footer{
+  background-color: #111927;
+  width: auto;
+  padding:1.5rem;
+  height: auto;
+  position: fixed 0;
+  bottom: 0;
+  box-shadow:  0px 0px 1rem 0.5px rgba(0, 0, 0, 5);
+
+}
+/*Ubicando los items en el centro  */
+.footer-content{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+/*Modificando tamaño del h3  */
+.footer-content h3{
+  padding: 2rem;
+  font-size: 2rem;
+  font-weight: 2rem;
+  text-transform: uppercase;
+  line-height: 2rem;
+  
+}
+/*Agregando margenes al parrafo y modficando tamaño  */
+.footer-content p{
+    max-width: 40rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+/*Generando tamaño al f-bootom     */
+.footer-bootom{
+  font-size: 0.8rem;
+  word-spacing: 0.2rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+/*Modificando el span    */
+.footer-bootom span{
+  text-transform: uppercase;
+  opacity: .5;
+  background-color: #212529;
+}
+/*Aliniando los iconos de las redes sociales  */
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+/*Modificando color de los iconos  */
+.socials a{
+  color: #fff;
+  margin: 1rem;
+}
+/*Determiando margenes de los iconos  */
+.socials a i{
+  font-size: 1.5rem;
+  transition: color .4s ease;
+}
+
+/*Agregando color de transicion con el mouse  */
+.socials a:hover i{
+  color: rgba(159, 239, 0, 0.9);
+}
+
