@@ -10,7 +10,16 @@
   grid-gap: 20px;
   grid-template-columns: repeat(2,1fr);
 }
-
+.contactos
+{
+   display: flex;
+  justify-content: center;
+}
+.col{
+  color: #111927;
+  justify-content: center;
+  display: flex;
+}
 .card-abel{
   background-color: blue;
   width: 100%;
@@ -20,16 +29,12 @@
   display: flex;
   justify-content: center;
 }
-
 .card-logo{
   background-color: red;
   height: 50px;
   width: 50px;
   border-radius: 100%;
 }
-
-
-
 .card-ana{
   background-color: red;
   width: 100%;

@@ -1,13 +1,18 @@
 .nav-menu .menu
 {
-  background-color: #22252c;
+  background:url(fondo.gif);
   padding: 1.5rem;
   color: #fff;
   box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.5);
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 .nav-menu .menu  li
 {
-  list-style-type:none;
+  list-style: none;;
   position: relative;
   z-index: 1; 
 }
@@ -41,28 +46,27 @@
 	transition: all 0.3s;
 	margin-right: 7px;
 }
-.continer .top-social a:hover {
-	background: #58D68D;
-	border-color: #58D68D;
+.span{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	color: #ffffff;
+	border: 1px solid #7abdb7;
+	border-radius: 50%;
 }
-
-  
- 
-/*
-.nav-menu .menu  li a::after
+.span a i
 {
-  position: absolute;
-  left: 0;
- top: 52px;
- width: 100%;
-  height: 2px ;
-  background: #77a2ec;
-  content:"";
+  font-size: 1.5rem;
+  transition: color .4s ease;
+  font-size: 20px;
+  padding: 10px ;
+  position: relative;  
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-
-}*/
+}
 .nav-menu{
   width: 100%;
   position: fixed ;
