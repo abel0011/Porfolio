@@ -1,3 +1,9 @@
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+  position: fixed;
+   z-index: -1;
+}
 .card-shared{
   background-color: #111927;
   padding:1.5rem;
@@ -7,19 +13,26 @@
 
 }
 .wrapper{
+  margin-top: 4%;
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(2,1fr);
 }
-.contactos
+.card-contacto
 {
-   display: flex;
-  justify-content: center;
+  background-color: #ffffff;
+  padding:1.5rem;
+  top: 0;
+  height: 40rem;
+  position: static ;
 }
-.col{
-  color: #111927;
-  justify-content: center;
-  display: flex;
+.card-body
+{
+background-color: rgb(255, 255, 255);
+  width: 100%;
+  margin-top: 5%;
+  justify-content: right;
+  position: static;
 }
 .card-abel{
   background-color: blue;
@@ -28,6 +41,7 @@
   border-radius: 1rem;
   margin-top: 8%;
   justify-content: right;
+  position: static;
 }
 .card-ana{
 
