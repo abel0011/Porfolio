@@ -5,6 +5,7 @@
 @import url(body/home.css);
 @import url(js/app.js);
 @import url(js/particles.min.js);
+@import url(body/experiencia.css);
 :root{
 }
 
@@ -20,7 +21,6 @@ scroll-behavior:smooth;
 body{
  background-color: #747a81;
 }
-
 /*Cambiando tipografias  */
 h1,
 h3,
