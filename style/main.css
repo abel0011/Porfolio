@@ -3,6 +3,9 @@
 @import url(library/Normalize/normalize.css);
 @import url(library/Icons/style__icon.css);
 @import url(body/home.css);
+@import url(js/app.js);
+@import url(js/particles.min.js);
+@import url(body/experiencia.css);
 :root{
 }
 
@@ -18,16 +21,18 @@ scroll-behavior:smooth;
 body{
  background-color: #747a81;
 }
-
 /*Cambiando tipografias  */
 h1,
-h2,
 h3,
 h4,
 p{
   font-family: quattrocento sans,sans-serif;
 }
-
+h2
+{
+  font-family: quattrocento sans,sans-serif;
+  color: black;
+}
 main
 {
 }
