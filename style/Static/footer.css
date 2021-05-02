@@ -24,13 +24,14 @@ footer{
   font-weight: 2rem;
   text-transform: uppercase;
   line-height: 2rem;
-  
+  color: #fff;  
 }
 /*Agregando margenes al parrafo y modficando tamaño  */
 .footer-content p{
     max-width: 40rem;
     line-height: 1.5rem;
     font-size: 1rem;
+    color: #fff;
 }
 /*Generando tamaño al f-bootom     */
 .footer-bootom{
@@ -38,12 +39,14 @@ footer{
   word-spacing: 0.2rem;
   text-transform: capitalize;
   text-align: center;
+color: #fff;
 }
 /*Modificando el span    */
 .footer-bootom span{
   text-transform: uppercase;
   opacity: .5;
   background-color: #212529;
+  color: #fff;
 }
 /*Aliniando los iconos de las redes sociales  */
 .socials{

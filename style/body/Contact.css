@@ -1,0 +1,12 @@
+.card-contacto
+{
+ background-color: #ffffff;
+  padding: 1px;
+  height: 35rem;
+  position: static ;
+}
+.contactos
+{
+   display: flex;
+  justify-content: center;
+}
