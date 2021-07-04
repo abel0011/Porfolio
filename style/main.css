@@ -120,14 +120,14 @@ a{
 
 .skills-list{
   overflow:hidden;
-  height:80px;
+  height:95px;
   margin-left:0.35em;
 }
 .skills-list i{
   display:block;
   font-style:normal;
   color:#A2F400;
-  animation:Text-up 6s 500ms infinite;
+  animation:Text-up 10s 1s infinite;
 }
 .section-body-text{
   display:flex;
@@ -213,3 +213,58 @@ a{
 .box-person span{
      margin-top:20px;
 }
+@media (max-width: 400px){
+  body{
+  }
+  nav{
+    width:80vh;
+    height: 100px;
+  }
+
+  #section-home{
+    height:300px; 
+    width:100%;
+    display:flex;
+    justify-content:center;
+  }
+#section-body{
+  height:250px;
+  width:100%;
+  display:flex;
+  justify-content:center;
+  }
+.section-body-text{
+  display:flex;
+  padding:50px; 
+  flex-direction:center;
+  align-items:center;
+  width:800px;
+  height:100px;
+  text-align:center;
+
+}
+.section-body-text:hover{
+  display:flex;
+  padding:50px; 
+  flex-direction:center;
+  align-items:center;
+  width:800px;
+  height:100px;
+  text-align:center;
+
+}
+  .presentation{
+    font-size:2em;
+  }
+  .skills-list{
+    height: 40px;
+  }
+  .section-body-text{
+    font-size:10px;
+  }
+
+}
+
+
+
+
