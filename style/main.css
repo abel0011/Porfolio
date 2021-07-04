@@ -1,8 +1,16 @@
+:root{
+  --hack:#65FF00;
+}
 *{
      margin:0;
      box-sizing:border-box;
 }
 body{
+  background:#F9F9F9;  
+}
+
+html{
+    scroll-behavior:smooth;
 }
 h1,
 h2,
@@ -13,10 +21,17 @@ h6{
 }
 
 nav{
-     background:#353B43;
+     background:rgba(255, 255, 255,0.5);
+/*     border-radius:20px;  */
      height: 100px;
      width:100%;
+     box-shadow:  20px 20px 70px rgba(0,0,0,0.5),
+             -20px -20px 70px #ffffff
 }
+a{
+  text-decoration:none;
+}
+
 #ul-porfolio{
      list-style:none;
      display: flex;
@@ -25,6 +40,15 @@ nav{
      justify-content:center;
      
 }
+.animation{
+   width:120px;
+   height: 45px;
+   border-radius:2px;
+   padding:10px;
+   background:#87FF00;
+
+}
+
 .li-navegation{
      margin-top:30px;
      margin-left:150px;
@@ -32,7 +56,27 @@ nav{
      font-size:20px;
      color:white;
      text-decoration:none;
+     transition:box-shadow 0.5s;
+     text-align:center;
 }
+
+
+.li-navegation:hover{
+     margin-top:30px;
+     margin-left:150px;
+     margin-right:150px;
+     font-size:20px;
+     background:#FCFCFC;
+     color:var(--hack);
+     text-decoration:none;
+     border:1px solid var(--hack);
+     box-shadow:  8px 8px 1px var(--hack),
+             -8px -8px 1px #FCFCFC;
+}
+
+
+
+
 .li-logo{
      margin-top:25px;
      display: flex;
@@ -92,15 +136,29 @@ nav{
   align-items:center;
   width:70%;
   height:20%;
+  border-radius: 50px;
+  background: #fafafa;
+  transition:box-shadow 1s;
+  box-shadow:  20px 20px 0px #A2F400,
 
-border-radius: 50px;
-background: #fafafa;
-box-shadow:  20px 20px 0px #A2F400,
-             -20px -20px 0px #ffffff;
-
-
+             -20px -20px 0px #F9F9F9;
   animation:scale-Y 1s ease-in 1;
 }
+.section-body-text:hover{
+  display:flex;
+  padding:50px; 
+  flex-direction:center;
+  align-items:center;
+  width:70%;
+  height:20%;
+  border-radius: 50px;
+  background: #fafafa;
+
+  box-shadow:  20px 20px 0px black,
+             -20px -20px 0px #A2F400;
+  animation:scale-Y 1s ease-in 1;
+}
+
 
 @keyframes Text-up{
   0%{
