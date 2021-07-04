@@ -1,5 +1,6 @@
 *{
      margin:0;
+     box-sizing:border-box;
 }
 body{
 }
@@ -41,13 +42,105 @@ nav{
 }
 
 #section-home{
+    height:400px; 
+    width:100%;
+    display:flex;
+    justify-content:center;
+}
+
+#section-about-us{
      background:#E5E5E5;
      height:548px;
      width:100%;
      display:flex;
      flex-direction:row;
      justify-content:center;
+
 }
+#section-body{
+  height:250px;
+  width:100%;
+  display:flex;
+  justify-content:center;
+
+}
+.presentation{
+    display:flex;
+    color:#4a4a4a;
+    font-size:5em;
+    flex-direction:center;
+    text-align:center;
+    align-items:center;
+
+}
+
+.skills-list{
+  overflow:hidden;
+  height:80px;
+  margin-left:0.35em;
+}
+.skills-list i{
+  display:block;
+  font-style:normal;
+  color:#A2F400;
+  animation:Text-up 6s 500ms infinite;
+}
+.section-body-text{
+  display:flex;
+  padding:50px; 
+  flex-direction:center;
+  align-items:center;
+  width:70%;
+  height:20%;
+
+border-radius: 50px;
+background: #fafafa;
+box-shadow:  20px 20px 0px #A2F400,
+             -20px -20px 0px #ffffff;
+
+
+  animation:scale-Y 1s ease-in 1;
+}
+
+@keyframes Text-up{
+  0%{
+    transform:translateY(0);
+  }15%{
+    transform:translateY(-112%);
+  }25%{
+    transform:translateY(-100%);
+  }35%{
+    transform:translateY(-212%);
+  }45%{
+    transform:translateY(-200%);
+  }55%{
+    transform:translateY(-312%);
+  }65%{
+    transform:translateY(-300%);
+  }75%{
+    transform:translateY(-412%);
+  }
+}
+
+@keyframes scale-Y{
+  0%{
+    transform:scaleY(0.01);
+  }100%{
+    transform:scaleY(1);
+  }
+}
+
+.box-person{
+     margin-top:10%;
+     margin-left:15%;
+     margin-right:15%;
+     width:300px;
+     height: 300px;
+     display:flex;
+     flex-direction:column;
+     text-align:center;
+}
+
 
 .img-home{
      border:1px solid black;
@@ -55,7 +148,10 @@ nav{
      height:160px;
      width:160px;
      margin-top:10%;
-     margin-left:15%;
-     margin-right:15%;
+     margin-left:auto;
+     margin-right:auto;
 }
 
+.box-person span{
+     margin-top:20px;
+}
