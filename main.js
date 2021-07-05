@@ -1,4 +1,4 @@
-var lst=['programador','diseñador','analista','si chicho'];
+var lst=['Programadora','Diseñadora','Analista'];
 var content=document.getElementById('palabras');
 var contentPalabra=content.innerHTML;
 //condicion para agregar palabra
@@ -6,7 +6,7 @@ var addcontent=false;
 //contador
 var x=0;
 
-var lstabel=['programador','diseñador','analista','si chicho'];
+var lstabel=['Programador','Diseñador','Analista'];
 var contentabel=document.getElementById('pabel');
 var contentPalabraabel=contentabel.innerHTML;
 //condicion para agregar palabra
@@ -56,8 +56,8 @@ if(contentPalabraabel.length > 0 && !addcontentabel){
 
      //agregando palabras (seteando)
      if(addcontentabel){
-          if(contentPalabraabel.length < lst[x].length){
-               contentabel.innerHTML=lst[x].slice(0,contentPalabraabel.length+1);
+          if(contentPalabraabel.length < lstabel[x].length){
+               contentabel.innerHTML=lstabel[x].slice(0,contentPalabraabel.length+1);
                contentPalabraabel=contentabel.innerHTML;
           }
           else{
@@ -72,7 +72,7 @@ if(contentPalabraabel.length > 0 && !addcontentabel){
      xabel=0;
      }
 
-},70);
+},90);
 
      
 

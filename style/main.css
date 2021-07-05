@@ -25,7 +25,7 @@ h6{
 nav{
   background:var(--blue-dark);
      height: 100px;
-     width:100vw;
+     width:100%;
      box-shadow:7px 7px 5px 0px rgba(50, 50, 50, 0.29);
 }
 a{
@@ -94,17 +94,18 @@ a{
 }
 
 #section-about-us{
-     background:#E5E5E5;
-     height:548px;
-     width:100vw;
+  margin-top:210px;
+    width:100%;
+    height:600px;
+    background: #E5E5E5;
      display:flex;
      flex-direction:row;
      justify-content:center;
 
 }
 #section-body{
-  height:250px;
-  width:100%;
+  height:auto;
+  width:auto;
   display:flex;
   justify-content:center;
   flex-wrap:normal;
@@ -132,12 +133,14 @@ a{
   animation:Text-up 10s 1s infinite;
 }
 .section-body-text{
+  width:100%;
+  margin-top:50px;
+  margin-left: 300px;
+  margin-right: 300px;
   display:flex;
-  padding:50px; 
   flex-direction:center;
+  padding:20px;
   align-items:center;
-  width:70%;
-  height:20%;
   border-radius: 50px;
   background: #fafafa;
   transition:box-shadow 1s;
@@ -146,12 +149,14 @@ a{
   animation:scale-Y 1s ease-in 1;
 }
 .section-body-text:hover{
+  width:100%;
+  margin-top:50px;
+  margin-left: 300px;
+  margin-right: 300px;
   display:flex;
-  padding:50px; 
   flex-direction:center;
+  padding:20px;
   align-items:center;
-  width:70%;
-  height:20%;
   border-radius: 50px;
   background: #fafafa;
   box-shadow:  20px 20px 0px black,
@@ -189,11 +194,11 @@ a{
 }
 
 .box-person{
-     margin-top:10%;
-     margin-left:15%;
-     margin-right:15%;
-     width:300px;
-     height: 300px;
+     margin-top:100px;
+     margin-left:300px;
+     margin-right:300px;
+     width:auto;
+     height: auto;
      display:flex;
      flex-direction:column;
      text-align:center;
@@ -220,41 +225,38 @@ a{
     margin:0;
   }
   body{
-    margin:0;
-    padding:0;
-  }
-  nav{
-    width:100%;
-    height: 50px;
-  }
-  .presentation{
-    margin:0;
-    margin-left:20px;
-    font-size:35px;
-    width:360px;
-    height:400px;
-    text-align:center;
   }
   #section-home{
-    height: 300px;
+    font-size:0.4em;
+  }
+  .presentation{
+    text-align: center;
+    margin-left:50px;
   }
   .skills-list{
-  height:55px;
-  margin-left:0.35em;
-
+    font-weight: bold;
+    height:50px;
   }
-  .section-body-text p{
-    padding-top:10px;
-    padding-bottom:5px;
-    font-size:9px;
+  #section-body{
+    height:500px;
+    width:100%;
   }
-  #section-about-us{
-     background:#E5E5E5;
-     height:548px;
-     width:100vw;
-     display:flex;
-     flex-direction:column;
-     justify-content:center;
+  .section-body-text {
+  box-shadow: 2px 2px 2px black;
+  margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom:50px;
+    box-shadow:  20px 20px 0px var(--hack),
+    -20px -20px 0px #F9F9F9;
+animation:scale-Y 1s ease-in 1;
   }
-  
-}
+ .section-body-text:hover{
+  box-shadow: 2px 2px 2px black;
+  margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom:50px;
+      box-shadow:  20px 20px 0px black,
+             -20px -20px 0px var(--hack);
+  animation:scale-Y 1s ease-in 1;
+  }
+  }
