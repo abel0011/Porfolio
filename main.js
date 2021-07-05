@@ -1,4 +1,4 @@
-var lst=['Programadora','Diseñadora','Analista'];
+var lst=['Developer','Designer','Analyst'];
 var content=document.getElementById('palabras');
 var contentPalabra=content.innerHTML;
 //condicion para agregar palabra
@@ -6,7 +6,7 @@ var addcontent=false;
 //contador
 var x=0;
 
-var lstabel=['Programador','Diseñador','Analista'];
+var lstabel=['Developer','Designer','Analyst'];
 var contentabel=document.getElementById('pabel');
 var contentPalabraabel=contentabel.innerHTML;
 //condicion para agregar palabra
