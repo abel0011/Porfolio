@@ -103,8 +103,9 @@ a {
 #section-about-us {
   margin-top: 210px;
   width: 100%;
-  height: 600px;
-  background: #e5e5e5;
+  height: 500px;
+  background:url('/images/banner/Wallpaper.jpg');
+  background-size:cover;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -204,8 +205,8 @@ a {
 
 .box-person {
   margin-top: 100px;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 200px;
+  margin-right: 200px;
   width: auto;
   height: auto;
   display: flex;
@@ -227,6 +228,15 @@ a {
 .box-person span {
   margin-top: 20px;
 }
+ .root{
+  color:red;
+  }
+  .n{
+  color:#267ACC;
+  }
+  .terminal{
+  color:white;
+  }
 
 @media screen and (max-width: 360px) {
   * {
@@ -295,14 +305,14 @@ a {
   justify-content: center;
   flex-wrap: normal;
 }
-.root{
+  .root{
   color:red;
-}
-.n{
+  }
+  .n{
   color:#267ACC;
-}
-.terminal{
+  }
+  .terminal{
   color:white;
-}
+  }
   
 }
