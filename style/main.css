@@ -6,13 +6,13 @@
 * {
   margin: 0;
   box-sizing: border-box;
+
 }
 body {
   background: var(--white);
 }
 
 html {
-  scroll-behavior: smooth;
 }
 h1,
 h2,
@@ -133,15 +133,14 @@ a {
 }
 .skills-list i {
   display: block;
-  font-style: normal;
   color: var(--hack);
   animation: Text-up 10s 1s infinite;
 }
 .section-body-text {
   width: 100%;
   margin-top: 50px;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 100px;
+  margin-right: 100px;
   display: flex;
   flex-direction: center;
   padding: 20px;
@@ -155,8 +154,8 @@ a {
 .section-body-text:hover {
   width: 100%;
   margin-top: 50px;
-  margin-left: 300px;
-  margin-right: 300px;
+  margin-left: 100px;
+  margin-right: 100px;
   display: flex;
   flex-direction: center;
   padding: 20px;
@@ -259,18 +258,19 @@ a {
   }
   .section-body-text {
     box-shadow: 2px 2px 2px black;
-    margin-left: 50px;
-    margin-right: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
     margin-bottom: 50px;
     box-shadow: 20px 20px 0px var(--hack), -20px -20px 0px #f9f9f9;
     animation: scale-Y 1s ease-in 1;
   }
-  .section-body-text:hover {
+  .section-body-text:hover{
     box-shadow: 2px 2px 2px black;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+
     box-shadow: 20px 20px 0px black, -20px -20px 0px var(--hack);
+    margin-bottom: 50px;
     animation: scale-Y 1s ease-in 1;
   }
 #section-about-us {
