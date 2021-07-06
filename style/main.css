@@ -389,7 +389,7 @@ a {
     margin: 0;
   }
   #section-home {
-    font-size: 0.4em;
+    font-size: 0.7em;
   }
   .presentation {
     text-align: center;
@@ -397,7 +397,7 @@ a {
   }
   .skills-list {
     font-weight: bold;
-    height: 20px;
+    height: 44px;
   }
   #section-body {
     height: 500px;
