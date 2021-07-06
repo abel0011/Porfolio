@@ -237,6 +237,153 @@ a {
   color:white;
   }
 
+
+@media screen and ( max-width:1000px){
+    body{
+    }
+  #section-about-us {
+    margin-top: 210px;
+    width: 100%;
+    height: 900px;
+    display: flex;
+  background:url('/images/banner/Wallpaper.jpg');
+    flex-direction: column;
+    justify-content: center;
+  }
+  .presentation {
+    display: flex;
+    color: #4a4a4a;
+    font-size: 3.5em;
+    flex-direction: center;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .skills-list {
+    overflow: hidden;
+    height: 95px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+  }
+  .skills-list i {
+    display: block;
+    color: var(--hack);
+    animation: Text-up 10s 1s infinite;
+  }
+  .box-person {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .img-home {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-size: center;
+  }
+ }
+@media screen and (max-width:800px){
+  .presentation {
+    display: flex;
+    color: #4a4a4a;
+    font-size: 2.8em;
+    flex-direction: center;
+    text-align: center;
+    align-items: center;
+    }
+    
+    .skills-list {
+      overflow: hidden;
+      height: 80px;
+      margin-left: 50px;
+      margin-right: 50px;
+      
+    }
+    .skills-list i {
+    display: block;
+    color: var(--hack);
+    animation: Text-up 10s 1s infinite;
+  }
+  .box-person {
+    margin-left: 100px;
+    margin-right: 100px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .img-home {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-size: center;
+  }
+}
+@media screen and (max-width: 500px){
+.presentation {
+    display: flex;
+    color: #4a4a4a;
+    font-size: 2.5em;
+    flex-direction: center;
+    text-align: center;
+    align-items: center;
+    margin-left:100px;
+    }
+    
+    .skills-list {
+      overflow: hidden;
+      height: 50px;
+      margin-left: 50px;
+      margin-right: 50px;
+      font-weight:bold
+      
+    }
+  .section-body-text {
+    box-shadow: 2px 2px 2px black;
+  margin-left: 50px;
+  margin-right: 50px;
+    margin-bottom: 50px;
+    box-shadow: 20px 20px 0px var(--hack), -20px -20px 0px #f9f9f9;
+    animation: scale-Y 1s ease-in 1;
+  }
+  .section-body-text:hover{
+    box-shadow: 2px 2px 2px black;
+  margin-left: 50px;
+  margin-right: 50px;
+
+    box-shadow: 20px 20px 0px black, -20px -20px 0px var(--hack);
+    margin-bottom: 50px;
+    animation: scale-Y 1s ease-in 1;
+  }
+
+ 
+  .img-home {
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    background-size: center;
+  }
+#section-about-us {
+  margin-top: 210px;
+  width: 100%;
+  height: 900px;
+  background: #232A35;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+}
 @media screen and (max-width: 360px) {
   * {
     margin: 0;
@@ -250,7 +397,7 @@ a {
   }
   .skills-list {
     font-weight: bold;
-    height: 50px;
+    height: 20px;
   }
   #section-body {
     height: 500px;
@@ -293,8 +440,87 @@ a {
 }
 .img-home {
   border-radius: 100%;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  background-size: center;
+}
+#section-body {
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: normal;
+}
+  .root{
+  color:red;
+  }
+  .n{
+  color:#267ACC;
+  }
+  .terminal{
+  color:white;
+  }
+  
+}
+@media screen and (max-width: 300px) {
+  * {
+    margin: 0;
+  }
+  #section-home {
+    font-size: 0.3em;
+  }
+  .presentation {
+    text-align: center;
+    margin-left: 50px;
+    font-size:15px;
+  }
+  .skills-list {
+    font-weight: bold;
+    height: 24px;
+  }
+  #section-body {
+    height: 500px;
+    width: 100%;
+  }
+  .section-body-text {
+    box-shadow: 2px 2px 2px black;
+  margin-left: 50px;
+  margin-right: 50px;
+    margin-bottom: 50px;
+    box-shadow: 20px 20px 0px var(--hack), -20px -20px 0px #f9f9f9;
+    animation: scale-Y 1s ease-in 1;
+  }
+  .section-body-text:hover{
+    box-shadow: 2px 2px 2px black;
+  margin-left: 50px;
+  margin-right: 50px;
+    box-shadow: 20px 20px 0px black, -20px -20px 0px var(--hack);
+    margin-bottom: 50px;
+    animation: scale-Y 1s ease-in 1;
+  }
+#section-about-us {
+  margin-top: 210px;
+  width: 100%;
+  height: 900px;
+  background: #232A35;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.box-person {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.img-home {
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
   border: 1px solid black;
   background-size: center;
 }
