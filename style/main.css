@@ -54,7 +54,7 @@ a {
 #ul-porfolio a {
   margin-left: 50px;
   margin-right: 50px;
-  margin-top: 12px;
+  margin-top: 20px;
 }
 #ul-porfolio img {
   margin: 20px;
@@ -72,10 +72,8 @@ a {
   color: white;
   font-size: 20px;
   font-weight: bold;
-  margin-left: 20px;
-  margin-right: 20px;
   margin-top: 15px;
-  text-align: center;
+   text-align: center;
   text-decoration: none;
   transition: box-shadow 0.5s;
 }
@@ -180,23 +178,30 @@ a {
   margin-top: 200px;
   width: 100%;
   height: 711px;
+  padding: 50px;
   background: white;
-  display: flex;
-  flex-direction: column;
 }
-
-.about-us-title{
-  margin-top: 5%;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 5%;
-}
-
 .about-us-text{
   display: flex;
   margin-right: 60px;
   margin-left: 60px;
 }
+
+.about-us-text  p{
+  width: 50%;
+  margin: 2%;
+}
+.about-us-title{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5%;
+}
+
+.about-us-title h1{
+  background: fuchsia;
+}
+
+
 
 @keyframes Text-up {
   0% {
@@ -561,7 +566,6 @@ color:white;
   display: flex;
   justify-content: center;
 }
-
   .n{
   color:#267ACC;
   }
