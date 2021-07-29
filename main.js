@@ -1,80 +1,68 @@
-var lst=['Developer','Designer','Analyst'];
-var content=document.getElementById('palabras');
-var contentPalabra=content.innerHTML;
-//condicion para agregar palabra
-var addcontent=false;
-//contador
-var x=0;
+document.addEventListener("DOMContentLoaded",()=>{
 
-var lstabel=['Developer','Designer','Analyst'];
-var contentabel=document.getElementById('pabel');
-var contentPalabraabel=contentabel.innerHTML;
-//condicion para agregar palabra
-var addcontentabel=false;
-//contador
-var xabel=0;
-
-
-
-
+var lstAna=['Developer','Designer','Analyst'];
+var contentListAna=document.getElementById('spanListAna');
+var contentPalabraAna=contentListAna.innerHTML;
+var addContentAna=false;
+var countAna=0;
+     
+//
+     
+var lstAbel=['Developer','Designer','Analyst'];
+var conetnListAbel=document.getElementById('spanListAbel');
+var contentPalabraAbel=conetnListAbel.innerHTML;
+var addContentAbel=false;
+var countAbel=0;
 
 setInterval(function(){
-     if(contentPalabra.length > 0 && !addcontent){
-          content.innerHTML=contentPalabra.slice(0,-1);
-     contentPalabra=content.innerHTML;
+     if(contentPalabraAna.length > 0 && !addContentAna){
+          contentListAna.innerHTML=contentPalabraAna.slice(0,-1);
+     contentPalabraAna=contentListAna.innerHTML;
      }
      else{
-          addcontent=true;
+          addContentAna=true;
      }
-
-
      //agregando palabras (seteando)
-     if(addcontent){
-          if(contentPalabra.length < lst[x].length){
-               content.innerHTML=lst[x].slice(0,contentPalabra.length+1);
-               contentPalabra=content.innerHTML;
+     if(addContentAna){
+          if(contentPalabraAna.length < lstAna[countAna].length){
+               contentListAna.innerHTML=lstAna[countAna].slice(0,contentPalabraAna.length+1);
+               contentPalabraAna=contentListAna.innerHTML;
           }
           else{
-               if(x < lst.length){
-                    x++;
+               if(countAna < lstAna.length){
+                    countAna++;
                }
-               addcontent=false;
-
+               addContentAna=false;
           }
      }
-     if(x == lst.length){
-     x=0;
+     if(countAna == lstAna.length){
+     countAna=0;
      }
-if(contentPalabraabel.length > 0 && !addcontentabel){
-          contentabel.innerHTML=contentPalabraabel.slice(0,-1);
-     contentPalabraabel=contentabel.innerHTML;
-     }
-     else{
-          addcontentabel=true;
-     }
-
-
-     //agregando palabras (seteando)
-     if(addcontentabel){
-          if(contentPalabraabel.length < lstabel[x].length){
-               contentabel.innerHTML=lstabel[x].slice(0,contentPalabraabel.length+1);
-               contentPalabraabel=contentabel.innerHTML;
+     if(contentPalabraAbel.length > 0 && !addContentAbel){
+               conetnListAbel.innerHTML=contentPalabraAbel.slice(0,-1);
+          contentPalabraAbel=conetnListAbel.innerHTML;
           }
           else{
-               if(xabel< lstabel.length){
-                    xabel++;
-               }
-               addcontentabel=false;
-
+               addContentAbel=true;
           }
-     }
-     if(xabel== lstabel.length){
-     xabel=0;
-     }
-
-},90);
-
-     
+          //agregando palabras (seteando)
+          if(addContentAbel){
+               if(contentPalabraAbel.length < lstAbel[countAbel].length){
+                    conetnListAbel.innerHTML=lstAbel[countAbel].slice(0,contentPalabraAbel.length+1);
+                    contentPalabraAbel=conetnListAbel.innerHTML;
+               }
+               else{
+                    if(countAbel< lstAbel.length){
+                         countAbel++;
+                    }
+                    addContentAbel=false;
+               }
+          }
+          if(countAbel== lstAbel.length){
+          countAbel=0;
+               }
+     },90);
+})
 
 
 
