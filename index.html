@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <link rel="stylesheet" href="../style/normalize.css" />
+    <link rel="stylesheet" href="style/normalize.css" />
     <link rel="stylesheet" href="/style/css/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="/style/main.css" />
     <script src="/style/script/jquery/jQuery_v3.2.1.js"></script>
     <script src="/style/script/bootstrap/bootstrap.bundle.js"></script>
-    <script     src="https://kit.fontawesome.com/98160d301b.js"
-      crossorigin="anonymous"  ></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Porfolio</title>
   </head>
   <body>
@@ -28,28 +25,53 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div id="ul-porfolio">
-          <img src="../images/logos/htb.png" alt="" />
-          <a href="#section-home" class="animation li-navegation"> Home </a>
-          <a href="#section-about-us" class="animation li-navegation">
-            About us
-          </a>
-          <a href="#section-contact" class="animation li-navegation">
-            Contact
-          </a>
-          <img class="li-logo" src="../images/logos/connection.png" alt="" />
-        </div>
+        <ul id="ul-porfolio">
+          <li>
+            <img
+              class="li-logo"
+              src="./assets/images/logos/htb.png"
+              alt="Logo Hack the Box"
+            />
+          </li>
+          <li>
+            <a href="#section-home">
+              <button class="btn btn-navbar-home">Home</button>
+            </a>
+          </li>
+          <li>
+            <a href="#section-">
+              <button class="btn btn-navbar">item2</button>
+            </a>
+          </li>
+          <li>
+            <a href="#section-about-us-text">
+              <button class="btn btn-navbar-about-us">About Us</button>
+            </a>
+          </li>
+          <li>
+            <a href="#section-contact">
+              <button class="btn btn-navbar-contact">Contact</button>
+            </a>
+          </li>
+          <li>
+            <img
+              class="li-logo"
+              src="./assets/images/logos/connection.png"
+              alt="Logo Nodos"
+            />
+          </li>
+        </ul>
       </div>
     </nav>
 
     <div id="section-home">
       <div class="presentation">
         Desarrollo<span class="skills-list">
-          <i>Css</i>
-          <i>Html</i>
-          <i>Java</i>
-          <i>Javasript</i>
-          <i>Cshare</i>
+          <b>Css</b>
+          <b>Html</b>
+          <b>Java</b>
+          <b>Javasript</b>
+          <b>Cshare</b>
         </span>
       </div>
     </div>
@@ -71,7 +93,7 @@
       <div class="box-person">
         <img
           class="img-home"
-          src="images/contacto/Abel.jpeg"
+          src="./assets/images/contacto/Abel.jpeg"
           title="Abel Paz Vilchez"
           alt=""
         />
@@ -90,7 +112,7 @@
       <div class="box-person">
         <img
           class="img-home"
-          src="images/contacto/Ana.jpeg"
+          src="assets//images/contacto/Ana.jpeg"
           title="Ana Vilchez Sullon"
           alt=""
         />
@@ -130,6 +152,31 @@
           Molestiae, dolore deleniti! Doloremque eligendi minus sunt, architecto
           rerum ex sequi.
         </p>
+      </div>
+      <div class="carousel">
+        <div class="carousel-items">
+          <div class="carousel-item-img">
+            <img src="assets/images/carousel/microsoft-sql.png" alt="" />
+          </div>
+          <div class="carousel-item-img">
+            <img src="assets/images/carousel/angular.png" alt="" />
+          </div>
+
+          <div class="carousel-item-img">
+            <img src="assets/images/carousel/bash.png" alt="" />
+          </div>
+
+          <div class="carousel-item-img">
+            <img src="assets/images/carousel/spring-boot.png" alt="" />
+          </div>
+          <div class="carousel-item-img">
+            <img src="assets/images/carousel/figma.png" alt="" />
+          </div>
+
+          <div class="carousel-item-img">
+            <img src="assets/images/carousel/parrot.png" alt="" />
+          </div>
+        </div>
       </div>
     </section>
   </body>
