@@ -1,183 +1,252 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <link rel="stylesheet" href="style/normalize.css" />
-    <link rel="stylesheet" href="/style/css/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="/style/main.css" />
-    <script src="/style/script/jquery/jQuery_v3.2.1.js"></script>
-    <script src="/style/script/bootstrap/bootstrap.bundle.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-widht, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
     <title>Porfolio</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon">
-          <i class="fas fa-bars"></i>
-        </span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul id="ul-porfolio">
-          <li>
-            <img
-              class="li-logo"
-              src="./assets/images/logos/htb.png"
-              alt="Logo Hack the Box"
-            />
-          </li>
-          <li>
-            <a href="#section-home">
-              <button class="btn btn-navbar-home">Home</button>
-            </a>
-          </li>
-          <li>
-            <a href="#section-">
-              <button class="btn btn-navbar">item2</button>
-            </a>
-          </li>
-          <li>
-            <a href="#section-about-us-text">
-              <button class="btn btn-navbar-about-us">About Us</button>
-            </a>
-          </li>
-          <li>
-            <a href="#section-contact">
-              <button class="btn btn-navbar-contact">Contact</button>
-            </a>
-          </li>
-          <li>
-            <img
-              class="li-logo"
-              src="./assets/images/logos/connection.png"
-              alt="Logo Nodos"
-            />
-          </li>
-        </ul>
-      </div>
+    <nav class="main-nav" id="main-nav">
+      <ul class="main-menu">
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" data-number="01.">About</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" data-number="02.">Experience</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" data-number="03.">Work</a>
+        </li>
+        <li class="main-menu__item">
+          <a class="main-menu__link" href="#" data-number="04.">Contact</a>
+        </li>
+      </ul>
     </nav>
-
-    <div id="section-home">
-      <div class="presentation">
-        Desarrollo<span class="skills-list">
-          <b>Css</b>
-          <b>Html</b>
-          <b>Java</b>
-          <b>Javasript</b>
-          <b>Cshare</b>
-        </span>
+    <div class="top-bar">
+      <img class="logo" src="assets/images/logos/htb.png" alt="logo" />
+      <div class="toggle" id="toggle-menu">
+        <div class="toggle__bar" id="toggle-bar"></div>
       </div>
     </div>
 
-    <div id="section-body">
-      <div class="section-body-text">
-        <p>
-          Si tienes devoción absoluta por lo que estás haciendo, dependiendo de
-          los tiempos y las oportunidades. Vamos a llegar tan lejos como
-          podamos. Pero si siempre estás preocupado por la recta final no por el
-          paso que estás dando ahora mismo caerás de cara al piso.
-        </p>
-      </div>
-    </div>
-
-    <br />
-
-    <section id="section-about-us">
-      <div class="box-person">
-        <img
-          class="img-home"
-          src="./assets/images/contacto/Abel.jpeg"
-          title="Abel Paz Vilchez"
-          alt=""
-        />
-        <span class="span-color-root"
-          >abel@hack:
-          <span class="span-color-n">
-            ~
-            <span class="span-color-terminal-text">
-              #
-              <span id="spanListAbel" class="span-color-terminal-text"> </span>
-            </span>
+    <main id="main">
+      <!--Custom-->
+      <div id="home" class="home">
+        <div class="presentation">
+          Desarrollo<span class="skills-list">
+            <b>Css</b>
+            <b>Html</b>
+            <b>Java</b>
+            <b>Javasript</b>
+            <b>Cshare</b>
           </span>
-        </span>
-      </div>
-
-      <div class="box-person">
-        <img
-          class="img-home"
-          src="assets//images/contacto/Ana.jpeg"
-          title="Ana Vilchez Sullon"
-          alt=""
-        />
-        <span class="span-color-root">
-          Gabriela@Ana:
-          <span class="span-color-n">
-            ~
-            <span class="span-color-terminal-text"> # </span>
-            <span id="spanListAna" class="span-color-terminal-text"> </span>
-          </span>
-        </span>
-      </div>
-      <script src="main.js"></script>
-    </section>
-
-    <section id="section-about-us-text">
-      <header>
-        <h1 class="about-us-title">Conocenos</h1>
-      </header>
-      <div class="about-us-text">
-        <p>
-          Es de mi agrado poder interactuar contigo, sin estar presentes en un
-          mimo lugar, el paso de la tecnológica incrementa cada día, es por eso
-          que estoy dispuesto en poner todo mi empeño en adquirir todo el
-          conocimiento para poder ofrecer soluciones creativas e innovadores,
-          soy un joven nacido el 19 de abril del año 2002, con una gran
-          curiosidad por los temas tecnológicos.<br />
-          Espero te agrade la estadía en este sitio web, tal vez te estés
-          preguntando quien es la persona que me acompaña, bueno yo no soy el
-          que deba responder esta duda. Te invito a que leas lo que ella ha
-          plasmado en sitio web.
-        </p>
-
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
-          mollitia corporis a accusantium maxime debitis. In nostrum enim quos?
-          Molestiae, dolore deleniti! Doloremque eligendi minus sunt, architecto
-          rerum ex sequi.
-        </p>
-      </div>
-      <div class="carousel">
-        <div class="carousel-items">
-          <div class="carousel-item-img">
-            <img src="assets/images/carousel/microsoft-sql.png" alt="" />
-          </div>
-          <div class="carousel-item-img">
-            <img src="assets/images/carousel/angular.png" alt="" />
-          </div>
-
-          <div class="carousel-item-img">
-            <img src="assets/images/carousel/bash.png" alt="" />
-          </div>
-
-          <div class="carousel-item-img">
-            <img src="assets/images/carousel/spring-boot.png" alt="" />
-          </div>
-          <div class="carousel-item-img">
-            <img src="assets/images/carousel/figma.png" alt="" />
-          </div>
-
-          <div class="carousel-item-img">
-            <img src="assets/images/carousel/parrot.png" alt="" />
-          </div>
         </div>
       </div>
-    </section>
+      <!-------->
+      <div class="title-container">
+        <h2 class="title" data-number="01.">About me</h2>
+      </div>
+      <article class="article">
+        <p class="text">
+          Hello! My name is Dorian and I enjoy creating things that live on the
+          internet. My interest in web development started back in 2012 when I
+          decided to try editing custom Tumblr themes — turns out hacking
+          together a custom reblog button taught me a lot about HTML & CSS!
+        </p>
+        <ul class="list">
+          <li class="list__item">JavaScript (ES6+)</li>
+          <li class="list__item">React</li>
+          <li class="list__item">Eleventy</li>
+          <li class="list__item">Vue</li>
+          <li class="list__item">Node.js</li>
+          <li class="list__item">WordPress</li>
+        </ul>
+        <section>
+          <div class="title-container">
+            <h2 class="title" data-number="02.">Works</h2>
+          </div>
+        </section>
+        <section class="cards">
+          <article class="card">
+            <header class="card__header">
+              <div class="card__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-folder"
+                >
+                  <title>Folder</title>
+                  <path
+                    d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+                  ></path>
+                </svg>
+              </div>
+              <a class="card__link" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-external-link"
+                >
+                  <title>External Link</title>
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  ></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line></svg
+              ></a>
+            </header>
+            <div class="card__body">
+              <h3 class="card__title">
+                Integrating Algolia Search with WordPress Multisite
+              </h3>
+              <p class="card__text">
+                Building a custom multisite compatible WordPress plugin to build
+                global search with Algolia
+              </p>
+            </div>
+            <footer class="card__footer">
+              <ul class="tags">
+                <li class="tags__item">React</li>
+                <li class="tags__item">Node.js</li>
+                <li class="tags__item">Node.Express</li>
+                <li class="tags__item">Spotify Api</li>
+              </ul>
+            </footer>
+          </article>
+          <article class="card">
+            <header class="card__header">
+              <div class="card__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-folder"
+                >
+                  <title>Folder</title>
+                  <path
+                    d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+                  ></path>
+                </svg>
+              </div>
+              <a class="card__link" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-external-link"
+                >
+                  <title>External Link</title>
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  ></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line></svg
+              ></a>
+            </header>
+            <div class="card__body">
+              <h3 class="card__title">
+                Integrating Algolia Search with WordPress Multisite
+              </h3>
+              <p class="card__text">
+                Building a custom multisite compatible WordPress plugin to build
+                global search with Algolia
+              </p>
+            </div>
+            <footer class="card__footer">
+              <ul class="tags">
+                <li class="tags__item">React</li>
+                <li class="tags__item">Node.js</li>
+                <li class="tags__item">Node.Express</li>
+                <li class="tags__item">Spotify Api</li>
+              </ul>
+            </footer>
+          </article>
+          <article class="card">
+            <header class="card__header">
+              <div class="card__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-folder"
+                >
+                  <title>Folder</title>
+                  <path
+                    d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"
+                  ></path>
+                </svg>
+              </div>
+              <a class="card__link" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-external-link"
+                >
+                  <title>External Link</title>
+                  <path
+                    d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                  ></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line></svg
+              ></a>
+            </header>
+            <div class="card__body">
+              <h3 class="card__title">
+                Integrating Algolia Search with WordPress Multisite
+              </h3>
+              <p class="card__text">
+                Building a custom multisite compatible WordPress plugin to build
+                global search with Algolia
+              </p>
+            </div>
+            <footer class="card__footer">
+              <ul class="tags">
+                <li class="tags__item">React</li>
+                <li class="tags__item">Node.js</li>
+                <li class="tags__item">Node.Express</li>
+                <li class="tags__item">Spotify Api</li>
+              </ul>
+            </footer>
+          </article>
+        </section>
+      </article>
+    </main>
+    <script src="js/main.js"></script>
   </body>
 </html>

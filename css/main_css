@@ -49,6 +49,7 @@ a {
   list-style: none;
   padding: 10px;
   width: 100%;
+  background-color: var(--color-bluedark);
 }
 
 #ul-porfolio a {

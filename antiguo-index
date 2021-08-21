@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <script src="js/main.js"></script>
+    <title>Porfolio</title>
+  </head>
+  <body>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul id="ul-porfolio">
+          <li>
+            <img
+              class="li-logo"
+              src="./assets/images/logos/htb.png"
+              alt="Logo Hack the Box"
+            />
+          </li>
+          <li>
+            <a href="#section-home">
+              <button class="btn btn-navbar-home">Home</button>
+            </a>
+          </li>
+          <li>
+            <a href="#section-">
+              <button class="btn btn-navbar">item2</button>
+            </a>
+          </li>
+          <li>
+            <a href="#section-about-us-text">
+              <button class="btn btn-navbar-about-us">About Us</button>
+            </a>
+          </li>
+          <li>
+            <a href="#section-contact">
+              <button class="btn btn-navbar-contact">Contact</button>
+            </a>
+          </li>
+          <li>
+            <img
+              class="li-logo"
+              src="./assets/images/logos/connection.png"
+              alt="Logo Nodos"
+            />
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div id="section-home">
+      <div class="presentation">
+        Desarrollo<span class="skills-list">
+          <b>Css</b>
+          <b>Html</b>
+          <b>Java</b>
+          <b>Javasript</b>
+          <b>Cshare</b>
+        </span>
+      </div>
+    </div>
+
+    <div id="section-body">
+      <div class="section-body-text">
+        <p>
+          Si tienes devoción absoluta por lo que estás haciendo, dependiendo de
+          los tiempos y las oportunidades. Vamos a llegar tan lejos como
+          podamos. Pero si siempre estás preocupado por la recta final no por el
+          paso que estás dando ahora mismo caerás de cara al piso.
+        </p>
+      </div>
+    </div>
+
+    <br />
+
+    <section id="section-about-us">
+      <div class="box-person">
+        <img
+          class="img-home"
+          src="./assets/images/contacto/Abel.jpeg"
+          title="Abel Paz Vilchez"
+          alt=""
+        />
+        <span class="span-color-root"
+          >abel@hack:
+          <span class="span-color-n">
+            ~
+            <span class="span-color-terminal-text">
+              #
+              <span id="spanListAbel" class="span-color-terminal-text"> </span>
+            </span>
+          </span>
+        </span>
+      </div>
+
+      <div class="box-person">
+        <img
+          class="img-home"
+          src="assets//images/contacto/Ana.jpeg"
+          title="Ana Vilchez Sullon"
+          alt=""
+        />
+        <span class="span-color-root">
+          Gabriela@Ana:
+          <span class="span-color-n">
+            ~
+            <span class="span-color-terminal-text"> # </span>
+            <span id="spanListAna" class="span-color-terminal-text"> </span>
+          </span>
+        </span>
+      </div>
+      <script src="main.js"></script>
+    </section>
+
+    <section id="section-about-us-text">
+      <header>
+        <h1 class="about-us-title">Conocenos</h1>
+      </header>
+      <div class="about-us-text">
+        <p>
+          Es de mi agrado poder interactuar contigo, sin estar presentes en un
+          mimo lugar, el paso de la tecnológica incrementa cada día, es por eso
+          que estoy dispuesto en poner todo mi empeño en adquirir todo el
+          conocimiento para poder ofrecer soluciones creativas e innovadores,
+          soy un joven nacido el 19 de abril del año 2002, con una gran
+          curiosidad por los temas tecnológicos.<br />
+          Espero te agrade la estadía en este sitio web, tal vez te estés
+          preguntando quien es la persona que me acompaña, bueno yo no soy el
+          que deba responder esta duda. Te invito a que leas lo que ella ha
+          plasmado en sitio web.
+        </p>
+
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor
+          mollitia corporis a accusantium maxime debitis. In nostrum enim quos?
+          Molestiae, dolore deleniti! Doloremque eligendi minus sunt, architecto
+          rerum ex sequi.
+        </p>
+      </div>
+      <div class="carousel">
+        <div class="carousel-items">
+          <div class="carousel-item-img">
+            <img src="assets/images/carousel/microsoft-sql.png" alt="" />
+          </div>
+          <div class="carousel-item-img">
+            <img src="assets/images/carousel/angular.png" alt="" />
+          </div>
+
+          <div class="carousel-item-img">
+            <img src="assets/images/carousel/bash.png" alt="" />
+          </div>
+
+          <div class="carousel-item-img">
+            <img src="assets/images/carousel/spring-boot.png" alt="" />
+          </div>
+          <div class="carousel-item-img">
+            <img src="assets/images/carousel/figma.png" alt="" />
+          </div>
+
+          <div class="carousel-item-img">
+            <img src="assets/images/carousel/parrot.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
