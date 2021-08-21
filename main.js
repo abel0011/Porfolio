@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const carrusel = document.querySelector(".carousel-items");
   let maxScrollLeft = carrusel.scrollWidth - carrusel.clientWidth;
   let intervalo = null;
-  let step = 1;
+  let step = 4;
   const start = () => {
     intervalo = setInterval(() => {
       carrusel.scrollLeft = carrusel.scrollLeft + step;
