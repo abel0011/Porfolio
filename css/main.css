@@ -537,6 +537,10 @@ main {
 .text-green {
   color: var(--green);
 }
+.text-flicker {
+  -webkit-animation: text-flicker-in-glow 4s linear both;
+  animation: text-flicker 1.5s linear both;
+}
 
 .text-lightest {
   color: var(--lightest-slate);
@@ -558,4 +562,157 @@ main {
 
 .no-scroll {
   overflow: hidden;
+}
+
+@keyframes text-flicker {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  10.1% {
+    opacity: 1;
+    text-shadow: none;
+  }
+  10.2% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+
+    opacity: 1;
+
+    color: var(--white);
+    text-shadow: 2px 2px 3px var(--green-hack);
+    filter: blur(1px);
+  }
+  20.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  30.1% {
+    opacity: 1;
+    color: var(--white);
+    text-shadow: 2px 2px 3px var(--green-hack);
+    filter: blur(2px);
+  }
+  30.5% {
+    opacity: 1;
+    color: var(--white);
+    text-shadow: 2px 2px 3px var(--green-hack);
+    filter: blur(30px);
+  }
+  30.6% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  45.1% {
+    opacity: 1;
+    color: var(--white);
+    text-shadow: 2px 2px 3px var(--green-hack);
+    filter: blur(4px);
+  }
+  50% {
+    opacity: 1;
+    color: var(--white);
+    text-shadow: 2px 2px 3px var(--green-hack);
+    filter: blur(5px);
+  }
+  55% {
+    opacity: 1;
+    color: var(--white);
+    text-shadow: 2px 2px 3px var(--green-hack);
+    filter: blur(4px);
+  }
+  55.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  57.1% {
+    opacity: 1;
+    color: var(--white);
+    text-shadow: 2px 2px 3px var(--green-hack);
+    filter: blur(3px);
+  }
+  60% {
+    opacity: 1;
+    color: var(--white);
+    text-shadow: 2px 2px 3px var(--green-hack);
+    filter: blur(2px);
+  }
+  60.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  65.1% {
+    opacity: 1;
+    color: var(--white);
+    text-shadow: 2px 2px 3px var(--green-hack);
+    filter: blur(1x);
+  }
+  75% {
+    opacity: 1;
+    color: var(--white);
+    text-shadow: 2px 2px 3px var(--green-hack);
+  }
+  75.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  77.1% {
+    opacity: 1;
+    color: var(--white);
+    text-shadow: 2px 2px 3px var(--green-hack);
+    filter: blur(1px);
+  }
+  85% {
+    opacity: 1;
+    color: var(--white);
+    text-shadow: 2px 2px 3px var(--green-hack);
+    filter: blur(2px);
+  }
+  85.1% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  86.1% {
+    opacity: 1;
+    color: var(--white);
+    text-shadow: 2px 2px 3px var(--green-hack);
+    filter: blur(3px);
+  }
+  100% {
+    opacity: 1;
+  }
 }
