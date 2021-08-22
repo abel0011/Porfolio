@@ -192,7 +192,32 @@ main {
 .arrow {
   display: flex;
   justify-content: center;
+  -webkit-animation: slide-bottom 1.9s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+    infinite both;
+  animation: slide-bottom 1.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite
+    both;
 }
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(8vh);
+    transform: translateY(8vh);
+  }
+}
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(8vh);
+    transform: translateY(8vh);
+  }
+}
+
 .arrow-icon {
   margin-top: 5%;
   max-width: 15%;
