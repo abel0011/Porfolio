@@ -372,6 +372,36 @@ main {
     margin-right: auto;
   }
 }
+
+.text-hacker {
+  font-family: "Courier";
+  color: var(--green-hack);
+  font-size: 20px;
+  width: 280px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: textWriting 1.5s steps(50, end);
+}
+.text-root {
+  color: #d7af00;
+}
+
+.text-flashing {
+  animation: textFlashing 1s infinite;
+}
+
+@keyframes textWriting {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes textFlashing {
+  to {
+    opacity: 0%;
+  }
+}
+
 .top-bar {
   position: fixed;
   top: 0;
@@ -539,7 +569,11 @@ main {
 }
 .text-flicker {
   -webkit-animation: text-flicker-in-glow 4s linear both;
-  animation: text-flicker 1.5s linear both;
+  animation: text-flicker 4s linear both;
+}
+.text-flicker-loop {
+  -webkit-animation: text-flicke 3s infinite;
+  animation: text-flicker 5s infinite;
 }
 
 .text-lightest {
