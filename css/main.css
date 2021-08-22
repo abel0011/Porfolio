@@ -94,7 +94,7 @@ main {
   left: 8px;
   width: calc(100% - 8px);
   height: 1px;
-  background-color: var(--black);
+  background-color: var(--white);
 }
 
 .home {
@@ -109,7 +109,7 @@ main {
 
 .presentation {
   align-items: center;
-  color: #4a4a4a;
+  color: var(--white);
   display: flex;
   text-align: center;
   font-size: 8vw;

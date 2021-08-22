@@ -13,18 +13,4 @@ document.addEventListener("DOMContentLoaded", () => {
       main.classList.toggle("blur"),
       document.body.classList.toggle("no-scroll");
   });
-
-  window.addEventListener("scroll", () => {
-    const scrolled = window.scrollY;
-    const scrollable =
-      document.documentElement.scrollHeight - window.innerHeight;
-
-    if (Math.ceil(scrolled) === scrollable) {
-      console.log("has llegado al final");
-    }
-  });
-
-  arrowUp.addEventListener("click", () => {
-    window.scrollTo(0, document.querySelector(".arrow").scrollHeight);
-  });
 });
