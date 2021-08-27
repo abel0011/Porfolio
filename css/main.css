@@ -380,7 +380,7 @@ main {
   width: 280px;
   overflow: hidden;
   white-space: nowrap;
-  animation: textWriting 1.5s steps(50, end);
+  animation: textWriting 2s infinite steps(16, end);
 }
 .text-root {
   color: #d7af00;
